@@ -1,3 +1,6 @@
+#include <stdlib.h>
+#include <stdio.h>
+
 int *alloc_1d(int cols)
 {
 	// !!! IMPLEMENT ME
@@ -19,4 +22,10 @@ void alloc_1d_example(void)
 	// are 100% equivalent.
 
 	printf("my_array[8] = %d\n", my_array[8]);
+}
+
+int main() {
+	alloc_1d_example();
+
+	return 0;
 }

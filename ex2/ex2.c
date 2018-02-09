@@ -1,3 +1,6 @@
+#include <stdlib.h>
+#include <stdio.h>
+
 int **alloc_2d(int rows, int cols)
 {
 	// !!! IMPLEMENT ME
@@ -23,4 +26,10 @@ void alloc_2d_example(void)
 	// are 100% equivalent.
 	
 	printf("my_array[2][3] = %d\n", my_array[2][3]);
+}
+
+int main() {
+	alloc_2d_example();
+
+	return 0;
 }
